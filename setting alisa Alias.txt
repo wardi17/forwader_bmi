@@ -1,0 +1,11 @@
+tambahkan lokasi ini di  F:\xampp\apache\conf\extra\httpd-xampp.conf
+
+
+
+Alias /UploadFilesForwader "C:/UploadFilesForwader"
+
+<Directory "C:/UploadFilesForwader">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
